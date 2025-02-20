@@ -1,9 +1,10 @@
+@timeout = 5000
 @url = http://localhost:3000
 
 GET {{url}}/employees/
 ###
 
-GET {{url}}/employees/asdasd
+GET {{url}}/employees/2bd79698273579b8288f
 
 ###
 POST {{url}}/employees/
