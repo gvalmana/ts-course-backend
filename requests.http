@@ -11,8 +11,11 @@ POST {{url}}/employees/
 Content-Type: application/json
 
 {
-    "name": "John",
-    "position": "Manager",
-    "salary":50000,
-    "other": "stuff"
+    "name": "asadasd",
+    "position": "HR",
+    "salary":50000
 }
+
+###
+GET {{url}}/reports/salaries
+###
